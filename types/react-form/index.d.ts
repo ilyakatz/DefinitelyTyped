@@ -133,6 +133,7 @@ export interface FieldProps {
     showErrors?: boolean;
     errorBefore?: boolean;
     isForm?: boolean;
+    validate?: (value: any) => any
 }
 
 export type SelectOptions = Array<{
